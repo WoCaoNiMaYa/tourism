@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+/** 更改每行的颜色**/
+
+table tr:nth-child(odd){background: #ccc;}
+
+/*修改表格的样式*/
+
+table{width: 90%;background: #ccc;margin: 10px;border-collapse: collapse;}
+
+th, td {height:25px;line-height:25px;text-align:center;border:1px solid #ccc;}
+
+th{background: #eee;font-weight: normal;}
+
+tr{background: #fff;}
+
+tr:hover{background: #cc0;}
+
+td a{color: #06f;text-decoration: none;}
+
+td a:hove{color: #06f;text-decoration: underline;}

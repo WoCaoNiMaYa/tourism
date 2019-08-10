@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录界面</title>
+</head>
+<body>
+	<div style="width: 500px; margin: 0 auto;">
+		<form action="/tourism/user/login" method="post">
+			<label for="username" style="font-size: 18px">用户名：</label>
+			<div
+				style="height: 35px; width: 400px; position: relative; display: inline">
+				<input id="username" name="username" type="text" placeholder="邮箱/手机号/QQ"
+					style="height: 30px; width: 350px; padding-right: 50px;"> <span
+					style="position: absolute; right: 18px; top: 2px; height: 16px; width: 16px; display: inline-block;"></span>
+			</div>
+			<br /> <br /> <label for="password" style="font-size: 18px">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+			<div
+				style="height: 35px; width: 400px; position: relative; display: inline">
+				<input id="password" type="password" name="password"
+					style="height: 30px; width: 350px; padding-right: 50px;"> <span
+					style="position: absolute; right: 16px; top: 2px; background-image: url(p.ico); height: 16px; width: 16px; display: inline-block;"></span>
+			</div>
+			<br /> <br /> <label for="verification_code" style="font-size: 18px">验证码：</label>
+			<input id="verification_code" type="text"
+				style="height: 30px; width: 350px;"> <br /> <br />
+				<div style="width: 500px; text-align: center;">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+						type="radio" name="auto_login" value="1" />
+					自动登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a herf="找回密码网址">找回密码</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div> <br /> <br />
+				<div style="text-align: center;">
+					<input type="submit" value="登录"
+						style="height: 30px; width: 426px; background-color: #3FF;" />
+				</div>
+		</form>
+	</div>
+</body>
+</html>
